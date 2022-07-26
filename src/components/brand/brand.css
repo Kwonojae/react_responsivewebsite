@@ -1,0 +1,19 @@
+.gpt3__brand {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap 속성은 Flex 컨테이너에서 Flex 아이템을 한 줄로 표시할 지, 또는 행(行)을 되풀이 해서 복수의 행(行)으로 표시할지 여부를 지정합니다.
+    wrap:flex 아이템이 flex 컨테이너 안에서 표시되도록, 줄 바꿈합니다.
+ */
+    justify-content: center;
+    align-items: center;
+}
+.gpt3__brand div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
